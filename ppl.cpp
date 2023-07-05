@@ -55,7 +55,7 @@ public:
 
     void sortByName() {  // sort by name
         if (head == nullptr || head->next == nullptr) {
-            return; // No need to sort
+            return;
         }
 
         bool swapped;

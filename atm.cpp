@@ -15,12 +15,12 @@ void withdrawCash(double& accountBalance)
 
     if (amount <= accountBalance)
     {
-        std::cout << "Withdrawing $" << amount << " from your account." << std::endl;
+        cout << "Withdrawing $" << amount << " from your account." << endl;
         accountBalance -= amount;
     }
     else
     {
-        std::cout << "Insufficient funds. Unable to withdraw $" << amount << "." << std::endl;
+        cout << "Insufficient funds. Unable to withdraw $" << amount << "." << endl;
     }
 }
 
